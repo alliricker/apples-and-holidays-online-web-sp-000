@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.map do |season|
-  puts season.keys.values_at.flatten
+  puts season.keys.flatten
   end
 end
 
